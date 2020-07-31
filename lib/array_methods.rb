@@ -1,5 +1,6 @@
 def using_include(array, element)
   array << "element1"
+  array.delete("element2")
   array.include?("element1")
 end
 
